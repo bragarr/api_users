@@ -8,7 +8,3 @@ export const getAllUsers = (_,res) => {
         return res.status(200).json(data)
     })
 }
-
-export function sum(a, b) {
-    return a + b;
-};

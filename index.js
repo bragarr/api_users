@@ -13,6 +13,4 @@ const port = process.env.PORT || 8000;
 
 app.use("/users", routerUser);
 
-app.listen(port, () => {
-    console.log("Servidor Ativo!");
-})
+app.listen(port);
